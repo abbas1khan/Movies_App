@@ -51,7 +51,6 @@ const HomeScreen = () => {
                     style={{ width: sizes.width, height: "100%", opacity: 0.3, position: 'absolute', alignSelf: 'center' }}
                     blurRadius={5}
                 >
-                
                 </ImageBackground>
                 : <></>
             } */}
