@@ -4,13 +4,8 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import MainAppNavigation from './app/navigation/MainAppNavigation';
 import { useFonts } from 'expo-font';
-import { store } from './app/redux/store';
-import { Provider } from 'react-redux';
-import persistStore from 'redux-persist/es/persistStore';
-import { PersistGate } from 'redux-persist/integration/react';
 import { colors } from './app/utils/Theme';
 
-let persister = persistStore(store)
 
 export default function App() {
 
@@ -39,13 +34,9 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar translucent backgroundColor={colors.transparent} barStyle='light-content' />
       <SafeAreaProvider>
-        <Provider store={store}>
-          <PersistGate loading={null} persistor={persister}>
-            <NavigationContainer>
-              <MainAppNavigation />
-            </NavigationContainer>
-          </PersistGate>
-        </Provider>
+        <NavigationContainer>
+          <MainAppNavigation />
+        </NavigationContainer>
       </SafeAreaProvider>
     </View>
   );
