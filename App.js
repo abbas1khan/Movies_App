@@ -29,26 +29,6 @@ export default function App() {
     'sf-pro-text-light': require('./app/assets/fonts/sf-pro-text-light.ttf'),
     'sf-pro-text-medium': require('./app/assets/fonts/sf-pro-text-medium.ttf'),
     'sf-pro-text-semibol': require('./app/assets/fonts/sf-pro-text-semibold.ttf'),
-
-
-    'Montserrat-Black': require('./app/assets/fonts/Montserrat-Black.ttf'),
-    'Montserrat-BlackItalic': require('./app/assets/fonts/Montserrat-BlackItalic.ttf'),
-    'Montserrat-Bold': require('./app/assets/fonts/Montserrat-Bold.ttf'),
-    'Montserrat-BoldItalic': require('./app/assets/fonts/Montserrat-BoldItalic.ttf'),
-    'Montserrat-ExtraBold': require('./app/assets/fonts/Montserrat-ExtraBold.ttf'),
-    'Montserrat-ExtraBoldItalic': require('./app/assets/fonts/Montserrat-ExtraBoldItalic.ttf'),
-    'Montserrat-ExtraLight': require('./app/assets/fonts/Montserrat-ExtraLight.ttf'),
-    'Montserrat-ExtraLightItalic': require('./app/assets/fonts/Montserrat-ExtraLightItalic.ttf'),
-    'Montserrat-Italic': require('./app/assets/fonts/Montserrat-Italic.ttf'),
-    'Montserrat-Light': require('./app/assets/fonts/Montserrat-Light.ttf'),
-    'Montserrat-LightItalic': require('./app/assets/fonts/Montserrat-LightItalic.ttf'),
-    'Montserrat-Medium': require('./app/assets/fonts/Montserrat-Medium.ttf'),
-    'Montserrat-MediumItalic': require('./app/assets/fonts/Montserrat-MediumItalic.ttf'),
-    'Montserrat-Regular': require('./app/assets/fonts/Montserrat-Regular.ttf'),
-    'Montserrat-SemiBold': require('./app/assets/fonts/Montserrat-SemiBold.ttf'),
-    'Montserrat-SemiBoldItalic': require('./app/assets/fonts/Montserrat-SemiBoldItalic.ttf'),
-    'Montserrat-Thin': require('./app/assets/fonts/Montserrat-Thin.ttf'),
-    'Montserrat-ThinItalic': require('./app/assets/fonts/Montserrat-ThinItalic.ttf'),
   })
 
   if (!loaded) {
